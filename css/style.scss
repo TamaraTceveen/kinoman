@@ -278,3 +278,70 @@ svg:hover {
     }
   }
 }
+
+
+
+
+/*Profile*/
+
+.profile_container {
+ 
+ max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  
+  margin-top: 4%;
+  margin-bottom: 4%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+  background: $purple;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  p, a{
+    font-weight: 700;
+    font-size: 2rem;
+    color: $grey;
+    
+  }
+  a {
+    font-weight: 700;
+    font-size: 2rem;
+    color: $purplelink;
+  }
+  a:hover{
+    color: $white;
+  }
+  h3 {
+    font-weight: 700;
+    font-size: 3rem;
+  }
+  .user_info{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+  }
+  .profile_settings {
+    a {
+      font-weight: 700;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.user_collections{
+img {
+  width: 305px;
+}
+.frst_collection {
+  margin-top: 7.12rem;
+}
+p {
+  font-size: 1.5rem;
+}
+}
+

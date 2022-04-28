@@ -348,4 +348,80 @@ svg:hover {
   text-align: center;
   border-radius: 10px;
 }
+
+
+
+/*Profile*/
+.profile_container {
+  max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+  background: #280C41;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.profile_container p, .profile_container a {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #8C8493;
+}
+
+.profile_container a {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #8f69b1;
+}
+
+.profile_container a:hover {
+  color: #f3f3f3;
+}
+
+.profile_container h3 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.profile_container .user_info {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.profile_container .profile_settings a {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.user_collections img {
+  width: 305px;
+}
+
+.user_collections .frst_collection {
+  margin-top: 7.12rem;
+}
+
+.user_collections p {
+  font-size: 1.5rem;
+}
+
 /*# sourceMappingURL=style.css.map */
